@@ -1,0 +1,95 @@
+<!-- we can check the errors in the html code with the help of "w3c validation" on chrome to add some mandatory fields-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My webpage</title>
+</head>
+<body>
+    This is some text
+</body>
+</html><hr><hr><hr>
+
+<!-- if we not include the forward slash "/" then it is considered as the self closing tag-->
+
+
+<!-- enter ! and press shift to get the below content -->
+
+<!-- Character and coding of the HTML version 5 -->
+
+<!DOCTYPE html>
+<html lang="en"><!--"lang" atribute is complsory to discribe the language-->
+
+<head>
+    <!--:)"meta" tag define the character and coding of HTML
+        :) defines the metadata about the HTML doc
+    :)always used inside the head element
+    :)used to specify characterset -->
+ <!--character set of the HTML version 5 -->
+ <meta charset="UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- to give keywords for top searches "name=" and "content="atribute is used-->
+    <meta name="keywords" content="this, is, some, text">
+    <title>Document</title>
+</head>
+<body>This is some text
+    
+</body>
+</html><hr/><hr/><hr/>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY webpage</title>
+    </head>
+    <body>
+        <p>IFRAME TAG</p>
+        <!--"IFRAME" tag is used to show the external videos/sites/images etc... in your site-->
+       <!--By changing the internal elements we can give access in different ways to video-->
+        
+       <!--IT IS ILLEGAL TO INCLUDE OTHER WEBSITES IN YOUR WEBSITE WITHOUT PERMISSION-->
+       <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/ip2Tv7-rw0U" 
+        title="YouTube video player" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        <br>
+        <hr/>
+        <br/>
+        <br/>
+        <iframe width="560" height="315" src="https://ww2.ibomma.one/telugu-movies/"></iframe><hr/>
+    
+        <!--For uploading offline videos from the device-->
+        <video src="C:\Users\prana\OneDrive\Desktop\Morbius-Telugu-mjb4d-2022.mp4"
+         type="C:\Users\prana\OneDrive\Desktop\Morbius-Telugu-mjb4d-2022/mp4"
+         controls width="560" height="315" autoplay muted></video><hr/><hr/><hr/>
+    <!--"video" tag is used for offline video upload-->
+    <!--"control" teg is used for contrals-->
+    <!-- "autoplay" will paly the video automatically-->
+    <br/><br/><hr/>
+    <audio src="C:\Users\prana\Music\VIKRAM ROLEX BGM.mp3"
+    type="C:\Users\prana\Music\VIKRAM ROLEX BGM/mp3"></audio>
+
+<!--with html we can only make the structure of the html without lines by using the tag "table"-->
+<table>
+    <tr><!--"tr" represents the row of the table-->
+        <th>name</th><!--"th" represents the table heading-->
+    <th>relation</th>
+</tr>
+<tr>
+<td>vamshi</td><!--"td" represents the table data-->
+<td>frnd</td>
+</tr>
+<tr>
+    <td>tippu</td>
+    <td>bromance</td>
+<!--styling will comes under CSS-->
+</tr>
+</table>
+</body>
+</html>
